@@ -1,10 +1,12 @@
 {
     "name": "@zaherg/prettier-config",
     "version": "0.0.1",
+    "private": false,
     "main": ".prettierrc.json",
     "author": "Zaher Ghaibeh <zaher@zaher.dev>",
     "license": "MIT",
     "description": "Personal prettier config",
+    "repository": "git@github.com:zaherg/prettier-config.git",
     "devDependencies": {
         "@trivago/prettier-plugin-sort-imports": "^4.3.0",
         "eslint-config-prettier": "^9.1.0",
