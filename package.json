@@ -1,6 +1,6 @@
 {
     "name": "@zaher/prettier-config",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "private": false,
     "main": ".prettierrc.json",
     "author": "Zaher Ghaibeh <zaher@zaher.dev>",
