@@ -1,0 +1,20 @@
+name: Static checker for GitHub Actions
+on:
+    push:
+    pull_request:
+
+jobs:
+    checker:
+        name: Static checker
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v4
+
+            - name: Download actionlint
+              id: actionlint
+              run: bash <(curl https://raw.githubusercontent.com/rhysd/actionlint/main/scripts/download-actionlint.bash)
+              shell: bash
+
+            - name: Check workflow files
+              run: ${{ steps.actionlint.outputs.executable }} -color -pyflakes=
+              shell: bash
