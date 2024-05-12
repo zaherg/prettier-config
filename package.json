@@ -1,5 +1,5 @@
 {
-    "name": "@zaherg/prettier-config",
+    "name": "@zaher/prettier-config",
     "version": "0.0.2",
     "private": false,
     "main": ".prettierrc.json",
