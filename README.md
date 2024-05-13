@@ -13,8 +13,8 @@ To use it:
 
 ```json
 {
-  // ...
-  "prettier": "@zaher/prettier-config"
+	// ...
+	"prettier": "@zaher/prettier-config"
 }
 ```
 
@@ -24,8 +24,8 @@ If you want to update any of the config while keeping the other one you can crea
 
 ```javascript
 module.exports = {
-  ...require("@zaher/prettier-config"),
-  // Override values here
+	...require('@zaher/prettier-config'),
+	// Override values here
 };
 ```
 

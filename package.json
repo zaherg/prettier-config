@@ -1,46 +1,46 @@
 {
-    "name": "@zaher/prettier-config",
-    "version": "1.0.4",
-    "private": false,
-    "main": "dist/index.js",
-    "files": [
-        "dist"
-    ],
-    "prettier": "./dist/index.js",
-    "license": "MIT",
-    "description": "Personal prettier config",
-    "homepage": "https://github.com/zaherg/prettier-config",
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/zaherg/prettier-config.git"
-    },
-    "bugs": {
-        "url": "https://github.com/zaherg/prettier-config/issues"
-    },
-    "author": {
-        "name": "Zaher Ghaibeh",
-        "email": "zaher@zaher.dev",
-        "url": "https://zaher.dev"
-    },
-    "keywords": [
-        "prettier",
-        "prettier-config"
-    ],
-    "publishConfig": {
-        "access": "public"
-    },
-    "dependencies": {
-        "@trivago/prettier-plugin-sort-imports": "^4.3.0",
-        "eslint-config-prettier": "^9.1.0",
-        "prettier-plugin-prisma": "^5.0.0",
-        "prettier-plugin-toml": "^2.0.1"
-    },
-    "devDependencies": {
-        "@types/prettier": "^3.0.0",
-        "typescript": "^5.0.0",
-        "prettier": "^3.2.5"
-    },
-    "scripts": {
-        "build": "rm -fr ./dist && tsc"
-    }
+	"name": "@zaher/prettier-config",
+	"version": "1.0.4",
+	"private": false,
+	"main": "dist/index.js",
+	"files": [
+		"dist"
+	],
+	"prettier": "./dist/index.js",
+	"license": "MIT",
+	"description": "Personal prettier config",
+	"homepage": "https://github.com/zaherg/prettier-config",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/zaherg/prettier-config.git"
+	},
+	"bugs": {
+		"url": "https://github.com/zaherg/prettier-config/issues"
+	},
+	"author": {
+		"name": "Zaher Ghaibeh",
+		"email": "zaher@zaher.dev",
+		"url": "https://zaher.dev"
+	},
+	"keywords": [
+		"prettier",
+		"prettier-config"
+	],
+	"publishConfig": {
+		"access": "public"
+	},
+	"dependencies": {
+		"@trivago/prettier-plugin-sort-imports": "^4.3.0",
+		"eslint-config-prettier": "^9.1.0",
+		"prettier-plugin-prisma": "^5.0.0",
+		"prettier-plugin-toml": "^2.0.1"
+	},
+	"devDependencies": {
+		"@types/prettier": "^3.0.0",
+		"typescript": "^5.0.0",
+		"prettier": "^3.2.5"
+	},
+	"scripts": {
+		"build": "rm -fr ./dist && tsc"
+	}
 }
