@@ -1,7 +1,8 @@
 name: Release and Publish to npm
 on:
     push:
-        branches: main
+        tags:
+            - '**'
 
 jobs:
     release:
