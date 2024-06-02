@@ -33,12 +33,13 @@
 		"@trivago/prettier-plugin-sort-imports": "^4.3.0",
 		"eslint-config-prettier": "^9.1.0",
 		"prettier-plugin-prisma": "^5.0.0",
+		"prettier-plugin-tailwindcss": "^0.6.1",
 		"prettier-plugin-toml": "^2.0.1"
 	},
 	"devDependencies": {
 		"@types/prettier": "^3.0.0",
-		"typescript": "^5.0.0",
-		"prettier": "^3.2.5"
+		"prettier": "^3.2.5",
+		"typescript": "^5.0.0"
 	},
 	"scripts": {
 		"build": "rm -fr ./dist && tsc"

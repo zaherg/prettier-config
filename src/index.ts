@@ -31,6 +31,7 @@ const config: Config = {
 		'@trivago/prettier-plugin-sort-imports',
 		'prettier-plugin-prisma',
 		'prettier-plugin-toml',
+		'prettier-plugin-tailwindcss',
 	],
 	overrides: [
 		{
@@ -40,6 +41,7 @@ const config: Config = {
 			},
 		},
 	],
+	tailwindConfig: './tailwind.config.js',
 };
 
 export = config;

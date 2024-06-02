@@ -2,6 +2,17 @@
 
 This is my personal prettier configuration that I use most of the time, feel free to use it or create your own based on it.
 
+### Included plugins
+
+For easy use, I have included multiple prettier plugins, you can visit each if you want to configure them:
+
+1. [Sort imports](https://github.com/trivago/prettier-plugin-sort-imports)
+2. [Prisma](https://github.com/umidbekk/prettier-plugin-prisma)
+3. [toml](https://github.com/un-ts/prettier/tree/master/packages/toml)
+4. [Tailwindcss plugin](https://github.com/tailwindlabs/prettier-plugin-tailwindcss/)
+
+You can check each one of them to know what options you can use and how to use them.
+
 ### Usage
 
 #### Via package.json
